@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/welcome")
     public  String show(){
-        return "hi from cicd";
+        return "hi from cicd with completed";
     }
 }
